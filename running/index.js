@@ -4,9 +4,9 @@ const newBook = {
     title: "Life of she can code",
     author: "Ines IKIREZI",
     year: 2000
-},
+};
 
-add (newBook);
+add(newBook);
 displayAll();
 update(1, "year", "2004");
 
