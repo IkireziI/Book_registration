@@ -6,7 +6,7 @@ const {booksDatabase}=require("../db/book-registration.js");
 
 const add=(newBook)=>{
     newBook.id=booksDatabase.length+1;
-    students.push(newBook);
+    booksDatabase.push(newBook);
 
     console.log("\nNew book added\n");
     
